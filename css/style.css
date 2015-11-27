@@ -4,12 +4,16 @@
  white-space: normal;
 }
 
+.center {
+    margin: 0 calc((100% - 204px) / 2);
+}
+
 .white {
     font-size: 18px;
     padding: 0 15px;
     width: 100%;
-color: #ffffff;
--webkit-user-select: none;
+    color: #ffffff;
+    -webkit-user-select: none;
 }
 
 @media only screen and (min-width : 768px) {
